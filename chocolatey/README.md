@@ -1,4 +1,4 @@
-﻿# ![HopToDesk](https://cdn.jsdelivr.net/gh/hoptodesk/hoptodesk/res/128x128.png "HopToDesk Logo") [HopToDesk](https://github.com/hoptodesk/hoptodesk/chocolatey)
+﻿# ![HopToDesk](https://cdn.jsdelivr.net/gh/hoptodesk/hoptodesk/res/128x128.png "HopToDesk Logo") [HopToDesk](https://github.com/hoptodesk/hoptodesk/tree/main/chocolatey)
 
 HopToDesk
 
