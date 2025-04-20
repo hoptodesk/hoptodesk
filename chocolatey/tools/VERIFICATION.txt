@@ -1,0 +1,21 @@
+﻿
+VERIFICATION
+Verification is intended to assist the Chocolatey moderators and community
+in verifying that this package's contents are trustworthy.
+
+To verify the package:
+1. Download the correct .exe release version from: 
+   https://github.com/hoptodesk/release/commits/main/
+
+   For example, release 1.42.9 is here:
+   https://github.com/hoptodesk/release/raw/72f38e38a0596e23a6c08f2712ad0821e3d10849/HopToDesk.exe 
+
+2. View the SHA256 for that version release by checking the hoptodesk.exe.sha256 file for that release.
+   For example, release 1.42.9 is here: 
+   https://github.com/hoptodesk/release/blob/72f38e38a0596e23a6c08f2712ad0821e3d10849/hoptodesk.exe.sha256
+
+3. Calculate the SHA256 checksum of the HopToDesk.exe file using:
+   - Windows: `certutil -hashfile HopToDesk.exe SHA256`
+   - PowerShell: `Get-FileHash HopToDesk.exe -Algorithm SHA256`
+
+4. Compare with the package's checksum to the checksum in the correct hoptodesk.exe.sha256 file for that release.

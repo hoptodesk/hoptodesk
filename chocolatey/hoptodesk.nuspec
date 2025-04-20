@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>hoptodesk</id>
+    <version>1.42.9</version>
+    <title>HopToDesk</title>
+    <authors>Begonia Holdings LLC</authors>
+    <owners>Dan Barlow</owners>
+    <projectUrl>https://www.hoptodesk.com</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/hoptodesk/hoptodesk/res/128x128.png</iconUrl>
+    <copyright>Copyright © 2025 Begonia Holdings</copyright>
+    <licenseUrl>https://raw.githubusercontent.com/hoptodesk/hoptodesk/refs/heads/main/LICENSE</licenseUrl>
+	<bugTrackerUrl>https://gitlab.com/hoptodesk/hoptodesk/-/issues/</bugTrackerUrl>
+	<docsUrl>https://help.hoptodesk.com/</docsUrl>
+	<mailingListUrl>https://gitlab.com/hoptodesk/hoptodesk/-/boards</mailingListUrl>
+    <releaseNotes>https://gitlab.com/hoptodesk/hoptodesk/-/commits/main?ref_type=HEADS</releaseNotes>
+	<tags>hoptodesk remote desktop free screen share file transfer p2p chat encryption teamviewer anydesk splashtop logmein</tags>
+	<projectSourceUrl>https://gitlab.com/hoptodesk/hoptodesk</projectSourceUrl>
+	<packageSourceUrl>https://github.com/hoptodesk/hoptodesk/tree/main/chocolatey</packageSourceUrl>
+    <summary>HopToDesk is a free remote desktop tool allowing peer to peer secure screen sharing, remote control, file transfer, and live chat between computers and devices.</summary>
+    <description>HopToDesk is a free and open source remote desktop tool for Windows, Mac, Linux, Android and iOS.  Easily share your screen, preform remote assistance, transfer files, and chat with the remote partner.
+
+Traffic is protected by true end-to-end encryption between all connected peers, which means HopToDesk does not have the ability to see user's screens, files, or any information shared between partners during a remote session.
+
+A perfect tool for providing remote support, managing remote servers, and performing remote administration. No complicated setup required, simply download and install HopToDesk on both devices and you are ready to connect.
+
+HopToDesk is free for both personal and business use.</description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
